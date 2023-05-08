@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="CSS\git_commands.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="haw">
+        <div class="haw-block">
+            <h1 class="block">Мій особистий блог</h1>
+            <h4 class="name">Стецюк Максим</h4>
+        </div>
+
+        <div class="login">
+            <a href="login.html">Вхід</a>
+            <a href="registration.html">Реєстрація</a>
+        </div>
+    </header>
+    <main class="border">
+        <div class="tb">
+            <h2 class="Create">Create a Repository</h2>
+            <h4>From scratch -- Create a new local repository</h4>
+            <h3>$ git init [project name]</h3>
+            <h4>Download from an existing repository</h4>
+            <h3>$ git clone my_url</h3>
+            <h2 class="Observe">Observe your Repository</h2>
+            <h4>List new or modified files not yet commited</h4>
+            <h3>$ git status</h3>
+            <h4>Show the changes to files not yet staged</h4>
+            <h3>$ git diff</h3>
+            <h4>Show the changes to staged files</h4>
+            <h3>$ git diff --cached</h3>
+            <h4>Show all staged and unstaged file changes</h4>
+            <h3>$ git diff HEAD</h3>
+            <h4>Show the changes between two commit ids</h4>
+            <h3>$ git diff commit1 commit2</h3>
+            <h4>List the change dates and authors for a file</h4>
+            <h3>$ git blane [file]</h3>
+            <h4>Show the file changes for a commit id and/or file</h4>
+            <h3>$ git show [commit]:[file]</h3>
+            <h4>Show full change history</h4>
+            <h3>$ git log</h3>
+            <h4>Show change history for file/directory induding diffs</h4>
+            <h3>$ git log -p [file/directory]</h3>
+        </div>
+        <div class="Branches">
+            <h2 class="Working">Working with Branches</h2>
+            <h4>List all local branches</h4>
+            <h3>$ git branch</h3>
+            <h4>List branhes, local and remote</h4>
+            <h3>$ git branch -av</h3>
+            <h4>Swich to a branch, my_branch and update working directory</h4>
+            <h3>$ git checkout my_branch</h3>
+            <h4>Create a new branch called new_branch</h4>
+            <h3>$ git branch mew_branch</h3>
+            <h4>Delete the branch called my_branch</h4>
+            <h3>$ git branch -d mew_branch</h3>
+            <h4>Merge branch_a into branch_b</h4>
+            <h3>$ git checkout branch_b</h3>
+            <h3>$ git merge branch_a</h3>
+            <h4>Tag the current commit</h4>
+            <h3>$ git tag my_tag</h3>
+        </div>
+        <div class="change">
+            <h2 class="Make">Make a change</h2>
+            <h4>Stages the fike, ready for commit</h4>
+            <h3>$ git add [file]</h3>
+            <h4>Stage all changed files, ready for commit</h4>
+            <h3>$ git add</h3>
+            <h4>Commit all stanged files to versioned history</h4>
+            <h3>$ git commit -m "commit message"</h3>
+            <h4>Commit all your tracked files to versioned history</h4>
+            <h3>$ git commit -am "commit massege"</h3>
+            <h4>Unstages file, keeping the file changes</h4>
+            <h3>$ git reset [file]</h3>
+            <h4>Revert everything to the last commit</h4>
+            <h3>$ git reset --hard</h3>
+        </div>
+        <div class="GitHub">
+            <h2 class="Synchronize">Synchronize</h2>
+            <h4>Get the latest changes from origin (no merge)</h4>
+            <h3>$ git fetch</h3>
+            <h4>Fetch the latest changes from origin and merge</h4>
+            <h3>$ git pull</h#>
+            <h4>Fetch the latest changes from origin and redase</h>
+            <h3>$ git pull --redase</h3>
+            <h4>Push local changes to the origin</h4>
+            <h3>$ git push</h3>
+            
+            <h2 class="Finally">Finally!</h2>
+            <h4>When in duobt, usa git help</h4>
+            <h3>$ git command --help</h3>
+            <h4>Or visit https://training.github.com/</h4>
+            <h4>for offical GitHub training</h4>
+        </div>
+    </main>
+    <footer class="foot">
+        <p class="prav">@ Всі права захищені.</p>
+        <p class="me">Розробник: курсант 203 навчальної групи мол.с-нт Стецюк М.Д</p>
+    </footer>
+</body>
+</html>
